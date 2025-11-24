@@ -77,7 +77,7 @@
                     <p>As explained above, a decorative images is one that if you took it off the page, the user would still be able to use and understand the page fully, because the image isn't adding any information they won't have otherwise. When adding these in your HTML, you indicate that they are decorative by leaving the alt text attribute empty. You can't leave the alt attribute off completely, just blank. Generally though, you'll add decorative images using CSS.</p>
                     <!-- TO DO: add the image named square-red-blue to this section below. Be sure to add its height and width -->
                     
-                    <img    src="images/square-red-blue.jpg"   alt="swirled pink and blue liquid" width="400px" height="400px">
+                    <img    src="images/square-red-blue.jpg"   alt="swirled pink and blue liquid" width="400" height="400">
 
                     <p class="credit">Photo by <a href="https://unsplash.com/@usgs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">USGS</a> on <a href="https://unsplash.com/wallpapers/cool/abstract?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
                 </section>
@@ -87,7 +87,7 @@
                     <p>For images that are content, and necessary for understanding the page (think products, maps, etc.) you cannot leave the alt text blank, and should use it to describe the image to the best of your ability. These should also use width and height attributes that come from the edited image itself.</p>
                     <!-- TO DO: add the memphis recording service to this section below, I used "a neon sign hanging on a dark wall that says memphis recording service" as the alt text for this image it is 400px wide by 400px tall -->
 
-                    <img    src="images/memphis-recording-service.jpg"  alt="a neon sign hanging on a dark wall that says memphis recording service"    width="400px"   height="400px">
+                    <img    src="images/memphis-recording-service.jpg"  alt="a neon sign hanging on a dark wall that says memphis recording service"    width="400"   height="400">
 
                     <p class="credit">Photo by <a href="https://unsplash.com/es/@uconrad?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Uwe Conrad</a> on <a href="https://unsplash.com/photos/zPnHgxeu9LI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
                 </section>
@@ -114,10 +114,8 @@
                     <p>Adding a video from YouTube is as simple as copying and pasting some code. YouTube videos include embed code under the share menu for each video. Once it is open, you can choose to set some options or just copy the code and paste it into your HTML. YouTube uses a tag called an <code>iframe</code> to hold their videos. These can render more than just videos, though, including an entire web page.</p>
                     <!-- This video can be found here: https://www.youtube.com/watch?v=k9DZp16uNQk&list=RDk9DZp16uNQk&start_radio=1 I did remove the autoplay and frameborder attributes from the given code -->
                     
-                    <iframe 
-                        width="560" height="315" src="https://www.youtube.com/embed/k9DZp16uNQk?si=LwOooj1cWleQrZKu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>            
-                    </iframe>
-                    
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/k9DZp16uNQk?si=LwOooj1cWleQrZKu" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
                     </section>
             </section>
 

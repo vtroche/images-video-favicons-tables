@@ -20,6 +20,7 @@
         <!-- CSS STYLESHEET -->
         <link rel="stylesheet" href="styles.css">
     </head>
+
     <body>
         <header>
             <a href="#" aria-label="go to the home page">
@@ -61,6 +62,7 @@
                 </ul>
             </nav>
         </header>
+        
         <main>
             <p>Follow along as we learn about using images in HTML, adding a favicon to a website, adding SVGs to HTML, adding a video to a web page, and creating a table with HTML.</p>
 
@@ -112,8 +114,11 @@
                     <p>Adding a video from YouTube is as simple as copying and pasting some code. YouTube videos include embed code under the share menu for each video. Once it is open, you can choose to set some options or just copy the code and paste it into your HTML. YouTube uses a tag called an <code>iframe</code> to hold their videos. These can render more than just videos, though, including an entire web page.</p>
                     <!-- This video can be found here: https://www.youtube.com/watch?v=k9DZp16uNQk&list=RDk9DZp16uNQk&start_radio=1 I did remove the autoplay and frameborder attributes from the given code -->
                     
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/k9DZp16uNQk?si=LwOooj1cWleQrZKu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>            
-
+                    <iframe 
+                        width="560" height="315" src="https://www.youtube.com/embed/k9DZp16uNQk?si=LwOooj1cWleQrZKu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>            
+                    </iframe>
+                    
+                    </section>
             </section>
 
             <section id="favicon">
@@ -130,7 +135,9 @@
 
             <section id="table">
                 <h2>Using Tables in HTML</h2>
-                <p>In HTML, tables are used for tabular data. Think of data similar to a schedule or what you might find easier to read in a spreadsheet format. Tables can cause issues on smaller screens, as they aren't responsive, so consider that if you add them to a page. If they will be small enough to fit on the screen, even with their data, you should be fine.</p>
+                <p>
+                    In HTML, tables are used for tabular data. Think of data similar to a schedule or what you might find easier to read in a spreadsheet format. Tables can cause issues on smaller screens, as they aren't responsive, so consider that if you add them to a page. If they will be small enough to fit on the screen, even with their data, you should be fine.
+                </p>
                 <table>
                     <!-- TO DO: Complete the code below to create a caption for this table -->
                     <caption>Hours of Operation</caption>
